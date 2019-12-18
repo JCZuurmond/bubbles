@@ -1,3 +1,6 @@
+import numpy as np
+
+
 def scale_wrt_vertical_gradient(img: np.ndarray) -> np.ndarray:
     """
     The image has a vertical gradient in color; lower
