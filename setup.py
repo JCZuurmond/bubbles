@@ -14,7 +14,9 @@ with open('README.md', encoding='UTF-8') as readme_file:
 requirements = []
 setup_requirements = []
 test_requirements = ['pytest']
-extra_requirements = {}
+extra_requirements = {
+    'develop': ['jupyter>=1.0.0'],
+}
 
 
 setuptools.setup(
