@@ -11,7 +11,9 @@ with open('README.md', encoding='UTF-8') as readme_file:
     readme = readme_file.read()
 
 
-requirements = []
+requirements = [
+    'scipy>=1.4.0',
+]
 setup_requirements = []
 test_requirements = ['pytest']
 extra_requirements = {
